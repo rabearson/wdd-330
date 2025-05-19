@@ -24,7 +24,7 @@ export class ProductDetails {
     }
 }
 function productDetailsTemplate(product) {
-    document.querySelector("h2").textContent = product.Brand.name;
+    document.querySelector("h2").textContent = product.Brand.Name;
     document.querySelector("h3").textContent = product.NameWithoutBrand;
     document.querySelector(".product-card__price").textContent = product.FinalPrice;
     document.querySelector(".product__color").textContent = product.Colors[0].ColorName;
